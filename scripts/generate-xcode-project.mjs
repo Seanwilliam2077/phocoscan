@@ -24,6 +24,8 @@ const fileRefs = [], testRefs = [], appSources=[], testSources=[], resources=[],
 for (const base of ['PocketWorld','PocketWorldTests']) {
   for (const filename of scan(path.join(ios,base))) {
     const rel = path.relative(ios,filename).replaceAll('\\','/');
+    // Real camera trajectories are local opt-in test data, never repository resources.
+    if (rel === 'PocketWorldTests/Fixtures/sample-capture-cameras.json') continue;
     const ext = path.extname(filename);
     if(!['.swift','.metal','.json','.xcassets','.xcprivacy','.txt'].includes(ext)) continue;
     const type = {'.swift':'sourcecode.swift','.metal':'sourcecode.metal','.json':'text.json','.xcassets':'folder.assetcatalog','.xcprivacy':'text.xml','.txt':'text'}[ext];

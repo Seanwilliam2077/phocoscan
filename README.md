@@ -13,6 +13,7 @@
 
 ## 开发入口
 
+- Android 协作先看 [接入说明](docs/ANDROID-HANDOFF.md)；`android/` 为预留目录，目前尚无 Android 客户端实现。
 - `ios/PocketWorld.xcodeproj`：iOS 18+ 原生 SwiftUI / ARKit / Metal App。
 - `ios/PocketWorldTests/`：模型、采集、恢复与删除等回归测试；真实素材/真机专项检查须显式启用。
 - `ios/TrainerCheck/`：Mac GPU 训练与数值检查工具。
@@ -38,7 +39,7 @@ npm --prefix server test
 
 当前为内部开发测试版本。功能、真机验收范围及已知限制以 [AGENTS.md](AGENTS.md) 的最新记录为准；尤其不能将模型可打开等同于几何/画质达标。[产品体验记录](docs/PRODUCT-EXPERIENCE-2026-11-11.md)、[本机训练 v6](docs/ON-DEVICE-TRAINING-V6.md)。
 
-仓库只管理代码、文档、必要应用资源和测试夹具。原始拍摄、生成模型、运行数据库、账户凭证、签名材料和编译缓存通过 `.gitignore` 排除。第三方组件及许可证见 [第三方声明](docs/THIRD-PARTY-NOTICES.md)。
+仓库只管理代码、文档、必要应用资源和合成测试夹具。原始拍摄与真实相机轨迹、生成模型、运行数据库、账户凭证、签名材料和编译缓存通过 `.gitignore` 排除。私有轨迹参考测试仅在测试设备设置 `PHOCOSCAN_ORBIT_REFERENCE_FIXTURE` 后运行；未配置时跳过该项。第三方组件及许可证见 [第三方声明](docs/THIRD-PARTY-NOTICES.md)。
 
 <details>
 <summary>早期开发记录（历史名称、自动双重建与成长玩法不代表当前产品行为）</summary>

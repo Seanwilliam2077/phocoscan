@@ -272,10 +272,6 @@
 			isa = PBXBuildFile;
 			fileRef = 621897BEB6E83D65F7824366;
 		};
-		1F57515B9A364B993C4B78E2 /* PBXBuildFile */ = {
-			isa = PBXBuildFile;
-			fileRef = 0778198C1B3B546127389F77;
-		};
 		7F6C8F5834B160C63AE0253D /* PBXBuildFile */ = {
 			isa = PBXBuildFile;
 			fileRef = 2D65D9AA9FA3E3CCCF1931C9;
@@ -769,12 +765,6 @@
 			path = PocketWorldTests/ExistingScanAcceptanceTests.swift;
 			sourceTree = SOURCE_ROOT;
 		};
-		0778198C1B3B546127389F77 /* PBXFileReference */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.json;
-			path = "PocketWorldTests/Fixtures/sample-capture-cameras.json";
-			sourceTree = SOURCE_ROOT;
-		};
 		2D65D9AA9FA3E3CCCF1931C9 /* PBXFileReference */ = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
@@ -1011,7 +1001,6 @@
 				9C87C0DBD3F19C0FF72B8A10,
 				8261271D7A6DA0E8F5E274CA,
 				621897BEB6E83D65F7824366,
-				0778198C1B3B546127389F77,
 				2D65D9AA9FA3E3CCCF1931C9,
 				F129C96A1F74B3AE4491BBD4,
 				5997F6FCA7897E3C65BD99F3,
@@ -1146,7 +1135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F57515B9A364B993C4B78E2,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

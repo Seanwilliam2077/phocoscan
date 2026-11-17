@@ -3,7 +3,7 @@ import simd
 @testable import PocketWorld
 
 /// Orbit range from capture cameras. The reference values come from a real 83-camera capture
-/// (`Fixtures/sample-capture-cameras.json`); the other cases are synthetic camera layouts.
+/// supplied explicitly on the test device; all other cases use synthetic camera layouts.
 final class OrbitLimitsTests: XCTestCase {
     // MARK: - Real capture reference
 
@@ -15,7 +15,10 @@ final class OrbitLimitsTests: XCTestCase {
             let width: Int, height: Int, fx: Double, fy: Double
             let position: [Double], rotation: [[Double]]
         }
-        let url = try XCTUnwrap(Bundle(for: Self.self).url(forResource: "sample-capture-cameras", withExtension: "json"))
+        guard let path = ProcessInfo.processInfo.environment["PHOCOSCAN_ORBIT_REFERENCE_FIXTURE"], !path.isEmpty else {
+            throw XCTSkip("Private capture reference excluded from Git. Set PHOCOSCAN_ORBIT_REFERENCE_FIXTURE on the test device to run this check.")
+        }
+        let url = URL(fileURLWithPath: path)
         let cameras = try JSONDecoder().decode([Camera].self, from: Data(contentsOf: url))
         return cameras.enumerated().map { index, camera in
             let r = camera.rotation, c = camera.position, worldFlip: [Double] = [-1, -1, 1]

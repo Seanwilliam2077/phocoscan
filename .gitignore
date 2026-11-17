@@ -46,6 +46,21 @@ ondevice*/
 /output/
 /tmp/
 
+# Real capture reference stays local; only synthetic fixtures are shared.
+/ios/PocketWorldTests/Fixtures/sample-capture-cameras.json
+/private-fixtures/
+
+# Android collaborator's local SDK, build output and release signing
+/android/.gradle/
+/android/.kotlin/
+/android/.idea/
+/android/**/build/
+local.properties
+*.apk
+*.aab
+*.jks
+*.keystore
+
 
 # Private app reporting screenshots and exports
 /output/phocoscan-report/
