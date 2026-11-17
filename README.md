@@ -1,3 +1,48 @@
+# phocoscan
+
+原生 iPhone 扫描与 3D Gaussian Splatting 应用。当前产品名为 **phocoscan**，Xcode 工程和模块仍使用 `PocketWorld`，App Bundle ID 为 `com.pocketworld.mvp`。
+
+## 当前功能
+
+- 物体、人像、空间扫描：原始视频、相机位姿及设备支持的深度数据保存在本机，支持校准、偏离提示和采集检查。
+- **3DGS 重建**：快速预览、精细重建、本机重建由用户独立选择；上传完成不会自动启动全部版本。
+- 本机 Metal 训练：主体优先、自适应增密、锁屏/后台暂停与断点恢复；重新训练保留已有结果。
+- 单图 AI 生成独立展示，与实拍扫描重建分开。
+- 原生交互查看、主体/全景切换、上一版结果、视频与 Live Photo 导出。
+- 作品搜索与分类；在「设置 → 作品管理」批量删除或清理显示覆盖低于 80% 的扫描。未评估、处理中作品和关联单图不会被低覆盖清理删除。
+
+## 开发入口
+
+- `ios/PocketWorld.xcodeproj`：iOS 18+ 原生 SwiftUI / ARKit / Metal App。
+- `ios/PocketWorldTests/`：模型、采集、恢复与删除等回归测试；真实素材/真机专项检查须显式启用。
+- `ios/TrainerCheck/`：Mac GPU 训练与数值检查工具。
+- `server/`：Node.js 24 API 与异步重建 worker。
+- `deploy/`：服务部署脚本及校验工具；实际环境配置和凭证不在仓库中。
+
+在 Mac 上用 Xcode 打开工程，选择自己的签名团队及目标设备。需要重新生成工程时执行：
+
+```sh
+POCKETWORLD_DEVELOPMENT_TEAM=YOUR_TEAM_ID node scripts/generate-xcode-project.mjs
+```
+
+服务端依赖和测试：
+
+```sh
+npm --prefix server ci
+npm --prefix server test
+```
+
+运行环境和接口见 [服务端说明](server/README.md) 与 [接口契约](docs/CONTRACT.md)。远程部署、真实素材上传和 GPU 任务均不是上述测试命令的默认步骤。
+
+## 状态与数据边界
+
+当前为内部开发测试版本。功能、真机验收范围及已知限制以 [AGENTS.md](AGENTS.md) 的最新记录为准；尤其不能将模型可打开等同于几何/画质达标。[产品体验记录](docs/PRODUCT-EXPERIENCE-2026-11-11.md)、[本机训练 v6](docs/ON-DEVICE-TRAINING-V6.md)。
+
+仓库只管理代码、文档、必要应用资源和测试夹具。原始拍摄、生成模型、运行数据库、账户凭证、签名材料和编译缓存通过 `.gitignore` 排除。第三方组件及许可证见 [第三方声明](docs/THIRD-PARTY-NOTICES.md)。
+
+<details>
+<summary>早期开发记录（历史名称、自动双重建与成长玩法不代表当前产品行为）</summary>
+
 # 小芽扫描 · iPhone 扫描、FF 预览与 SfM 精细结果
 
 > 2026-11-03 最新方向：原生 iPhone App 保持简洁扫描，先给真实 FF／WorldMirror2 预览，同时将独立 SfM → 3DGS 精细结果、手机 SH3 渲染和轨迹游览纳入交付计划。两条结果可分别成功或失败；小芽成长只记录真实采集一次。[双结果与手机渲染方案](docs/FF-SFM-MOBILE-DELIVERY.md)、[FF 主线范围](docs/NATIVE-FF-APP-MVP.md)。服务器自动双重建的实现与验证见下文；Windows 测试不能代替 Xcode 编译与 iPhone 验收。此前微信小程序保留作历史原型。
@@ -90,3 +135,5 @@ npm.cmd run check
 | `ios/` | 原 SwiftUI 工程，当前无需使用 |
 
 后端操作详见 [server/README.md](server/README.md)。交接源码应排除 `server/data/`、`server/.local-config.json`、`runtime/`、`work/`、`exports/` 和所有私有采集包。管理员凭证只留本机，不填写到小程序。
+
+</details>
