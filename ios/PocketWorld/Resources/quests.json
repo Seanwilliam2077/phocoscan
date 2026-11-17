@@ -1,0 +1,8 @@
+[
+  {"id":"first_light","title":"第一盏暖灯","subtitle":"阿灯想找一个让旅人安心等信的地方。把日常的一角，寄回自己的小站。","npc":"邮差 · 阿灯","cardKind":"lobby","indoorTip":"选择获准拍摄的门厅一角，让门框、墙角和地面一起出现在画面里。","outdoorTip":"选择安静的遮雨檐下或街角等候区，保留地面与固定建筑作为共同参照。","unlockAfter":[]},
+  {"id":"rest_stop","title":"给画师留个位子","subtitle":"小禾带着画板来了。她想坐下来，看一会儿光慢慢移动。","npc":"画师 · 小禾","cardKind":"rest","indoorTip":"可用室内休息角替代。绕长椅或桌旁缓慢移动，避免只原地转动手机。","outdoorTip":"找一处街角长椅或树荫休息区，侧移时仍保留长椅、铺装等固定参照。","unlockAfter":["first_light"]},
+  {"id":"connecting_paths","title":"一条会相遇的小路","subtitle":"多一张路卡，就多一种布置方法。也可以先移动已有卡片，连通邮局和休息区。","npc":"邮差 · 阿灯","cardKind":"road","indoorTip":"选择短走廊一段，慢慢前进；始终保留门框、墙角和地面。一个片段只代表这一小段。","outdoorTip":"在安全的人行步道选几步距离，记录路面、边缘和固定背景，不以车流或天空为主体。","unlockAfter":["first_light"]},
+  {"id":"green_corner","title":"街角的一点绿","subtitle":"阿栗送来一颗种子。你希望小站长成花园，还是拥有热闹的小集市？","npc":"园丁 · 阿栗","cardKind":"green","indoorTip":"获准拍摄的室内植物角也很好。包括花盆边缘和固定背景，留意反光。","outdoorTip":"选择小花坛一角，记录花坛边缘、路面与背景；风吹树叶不算稳定几何。","unlockAfter":["rest_stop"]},
+  {"id":"reading_nook","title":"借一页好时光","subtitle":"小禾想在花园旁办一个读书会。给来往的旅人留下一处安静角落。","npc":"画师 · 小禾","cardKind":"reading","indoorTip":"选择自己的或获准拍摄的阅读角，移开私人文件；观察书架、桌沿和地面。","outdoorTip":"选择安静的阅读长椅一角，保留座椅边缘与固定背景。避开他人的脸。","unlockAfter":["green_corner"]},
+  {"id":"market_stall","title":"周末有个小摊","subtitle":"阿栗准备了花和明信片。把小摊放在入口附近，让新客人一眼看见。","npc":"园丁 · 阿栗","cardKind":"stall","indoorTip":"选择获准拍摄的小桌面与周围固定空间，不拍收款码、账单或他人信息。","outdoorTip":"在允许拍摄且人少的街角取一小片固定场景，不追拍摊主或行人。","unlockAfter":["green_corner"]}
+]

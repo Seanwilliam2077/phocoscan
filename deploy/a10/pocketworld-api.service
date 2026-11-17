@@ -1,0 +1,40 @@
+[Unit]
+Description=PocketWorld upload and reconstruction API
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=pocketworld
+Group=pocketworld
+WorkingDirectory=/opt/pocketworld/current/server
+Environment=NODE_ENV=production
+Environment=POCKETWORLD_CONFIG=/etc/pocketworld/api.json
+Environment=PATH=/opt/pocketworld/node/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/opt/pocketworld/node/bin/node /opt/pocketworld/current/server/index.mjs
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=30
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/mnt/data2/pocketworld/data
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+LockPersonality=true
+CapabilityBoundingSet=
+MemoryMax=2G
+TasksMax=256
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

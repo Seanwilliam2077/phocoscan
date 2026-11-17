@@ -1,0 +1,13 @@
+[Unit]
+Description=PocketWorld read-only GPU memory snapshot
+[Service]
+Type=oneshot
+User=pocketworld
+Group=pocketworld
+RuntimeDirectory=pocketworld-gpu
+RuntimeDirectoryPreserve=yes
+ExecStart=/usr/bin/python3 /opt/pocketworld/current/server/tools/sample-gpus.py
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/run/pocketworld-gpu

@@ -1,0 +1,41 @@
+[Unit]
+Description=PocketWorld durable FF and SfM reconstruction worker
+After=network-online.target pocketworld-api.service
+Wants=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=pocketworld
+Group=pocketworld
+WorkingDirectory=/opt/pocketworld/current
+Environment=NODE_ENV=production
+Environment=PATH=/opt/pocketworld/node/bin:/usr/local/bin:/usr/bin:/bin
+ExecStartPre=/opt/pocketworld/node/bin/node /opt/pocketworld/service-tools/wait-for-api.mjs
+ExecStart=/opt/pocketworld/node/bin/node /opt/pocketworld/current/server/tools/dual-reconstruction-worker.mjs --config /etc/pocketworld/worker.json --watch
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=120
+UMask=0077
+# NoNewPrivileges would prevent the one explicitly permitted read-only helper.
+# The user has no shell access and no other sudo permission from this deployment.
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+BindReadOnlyPaths=/mnt/data2/pocketworld/runtime/media/ffmpeg:/usr/local/bin/ffmpeg /mnt/data2/pocketworld/runtime/media/ffprobe:/usr/local/bin/ffprobe
+ReadWritePaths=/mnt/data2/pocketworld/data /mnt/data2/pocketworld/work
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+LockPersonality=true
+MemoryMax=4G
+TasksMax=256
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

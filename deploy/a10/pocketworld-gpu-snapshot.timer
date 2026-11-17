@@ -1,0 +1,8 @@
+[Unit]
+Description=Refresh PocketWorld GPU memory admission snapshot
+[Timer]
+OnBootSec=1
+OnUnitInactiveSec=2
+AccuracySec=1
+[Install]
+WantedBy=timers.target

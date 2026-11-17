@@ -1,0 +1,18 @@
+{
+  "name": "pocket-world-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Native WeChat exploration game + Windows manual reconstruction backend",
+  "type": "module",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "start": "node server/index.mjs",
+    "test": "node --test server/test/*.test.mjs miniprogram-tests/*.test.cjs",
+    "test:server": "node --test server/test/*.test.mjs",
+    "test:mini": "node --test miniprogram-tests/*.test.cjs",
+    "project": "node scripts/generate-xcode-project.mjs",
+    "check": "node scripts/check-miniprogram.mjs",
+    "check:ios": "node scripts/check-project.mjs"
+  }
+}
+

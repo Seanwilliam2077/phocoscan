@@ -1,0 +1,18 @@
+{
+  "dataDir": "../server/data",
+  "workDir": "../work/dual-reconstruction-worker",
+  "hubOrigin": "http://9.135.79.113:8000",
+  "successStatus": "SUCCESS",
+  "plyProfile": "worldmirror2-probability-v1",
+  "ffFrameCount": 16,
+  "sfmFrameCount": 64,
+  "maxConcurrentJobs": 2,
+  "ffmpegPath": "ffmpeg",
+  "ffprobePath": "ffprobe",
+  "artifactSSH": {
+    "host": "9.135.79.113",
+    "port": 36000,
+    "user": "YOUR_SERVER_USER",
+    "identityFile": "C:/Users/YOUR_WINDOWS_USER/.ssh/YOUR_PRIVATE_KEY"
+  }
+}

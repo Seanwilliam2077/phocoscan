@@ -1,0 +1,29 @@
+[Unit]
+Description=phocoscan single-image 3DGS (dynamic GPU)
+After=network-online.target systemd-tmpfiles-setup.service
+Wants=network-online.target
+RequiresMountsFor=/mnt/data2/pocketworld-triposplat /mnt/data2/agescan-yulingji/models/triposplat
+
+[Service]
+Type=simple
+User=yulingji
+Group=users
+WorkingDirectory=/mnt/data2/pocketworld-triposplat
+EnvironmentFile=/mnt/data2/agescan-yulingji/models/triposplat/triposplat-svc.env
+EnvironmentFile=/etc/pocketworld/triposplat-dynamic.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/mnt/data2/agescan-yulingji/models/triposplat/venv/bin/python /opt/pocketworld/image-executor/triposplat_service.py
+Restart=on-failure
+RestartSec=5
+KillMode=control-group
+TimeoutStopSec=20
+UMask=0077
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/mnt/data2/pocketworld-triposplat /dev/shm/phocoscan-triposplat
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+
+[Install]
+WantedBy=multi-user.target

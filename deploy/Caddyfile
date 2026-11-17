@@ -1,0 +1,15 @@
+{$DOMAIN} {
+    # 501 MiB: permits a 500 MiB raw video plus multipart framing. The backend
+    # still applies its separate video/model/preview limits and validation.
+    request_body {
+        max_size 525336576
+    }
+    reverse_proxy app:8787 {
+        transport http {
+            dial_timeout 5s
+            response_header_timeout 600s
+            read_timeout 600s
+            write_timeout 600s
+        }
+    }
+}

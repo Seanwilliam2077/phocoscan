@@ -1,0 +1,2 @@
+# Exact root-owned reader only. JSON arrives on stdin; no code or extra args.
+pocketworld ALL=(root) NOPASSWD: /usr/bin/python3 -I /opt/pocketworld/artifact-helper/read-hub-cameras.py

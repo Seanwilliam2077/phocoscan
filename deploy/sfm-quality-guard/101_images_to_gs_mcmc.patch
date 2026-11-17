@@ -1,0 +1,60 @@
+diff --git a/101_images_to_gs_mcmc.sh b/101_images_to_gs_mcmc.sh
+index 26fc464..3ca33d7 100644
+--- a/101_images_to_gs_mcmc.sh
++++ b/101_images_to_gs_mcmc.sh
+@@ -81,6 +81,14 @@ if [ "${SKIP_SFM}" != "1" ]; then
+   echo "=== [101/1] COLMAP feature_extractor ==="
+   rm -f "${WORK}/database.db"
+   rm -rf "${WORK}/sparse"
++  STABLE_FEATURE_ARGS=()
++  STABLE_MATCH_ARGS=()
++  if [ -z "${POSE_PRIOR_CSV}" ]; then
++    "${COLMAP_PYTHON}" "${SCRIPT_DIR}/104_sfm_quality_guard.py" list \
++      --images "${WORK}/images" --output "${WORK}/sfm-image-order.txt"
++    STABLE_FEATURE_ARGS=(--image_list_path "${WORK}/sfm-image-order.txt" --FeatureExtraction.num_threads 1 --default_random_seed 0)
++    STABLE_MATCH_ARGS=(--FeatureMatching.num_threads 1 --TwoViewGeometry.random_seed 0 --default_random_seed 0)
++  fi
+   FEAT=(
+     "${COLMAP}" feature_extractor
+     --database_path "${WORK}/database.db"
+@@ -92,6 +100,7 @@ if [ "${SKIP_SFM}" != "1" ]; then
+     --SiftExtraction.estimate_affine_shape 1
+     --SiftExtraction.domain_size_pooling 1
+     --SiftExtraction.peak_threshold "${PEAK_THRESHOLD}"
++    "${STABLE_FEATURE_ARGS[@]}"
+   )
+   if [ -n "${CAMERA_PARAMS}" ]; then
+     FEAT+=(--ImageReader.camera_params "${CAMERA_PARAMS}")
+@@ -107,14 +116,16 @@ if [ "${SKIP_SFM}" != "1" ]; then
+     "${COLMAP}" exhaustive_matcher \
+       --database_path "${WORK}/database.db" \
+       --FeatureMatching.use_gpu 1 \
+-      --FeatureMatching.gpu_index "${GPU_INDEX}"
++      --FeatureMatching.gpu_index "${GPU_INDEX}" \
++      "${STABLE_MATCH_ARGS[@]}"
+   else
+     "${COLMAP}" sequential_matcher \
+       --database_path "${WORK}/database.db" \
+       --SequentialMatching.overlap "${WINDOW}" \
+       --SequentialMatching.quadratic_overlap 1 \
+       --FeatureMatching.use_gpu 1 \
+-      --FeatureMatching.gpu_index "${GPU_INDEX}"
++      --FeatureMatching.gpu_index "${GPU_INDEX}" \
++      "${STABLE_MATCH_ARGS[@]}"
+   fi
+ 
+   mkdir -p "${WORK}/sparse"
+@@ -163,7 +174,12 @@ if [ "${SKIP_SFM}" != "1" ]; then
+       --overwrite_priors_covariance 0
+     )
+   fi
+-  "${MAPPER_ARGS[@]}"
++  if [ "${MAPPER_BIN}" = "mapper" ]; then
++    "${COLMAP_PYTHON}" "${SCRIPT_DIR}/104_sfm_quality_guard.py" map \
++      --database "${WORK}/database.db" --output "${WORK}/sparse" -- "${MAPPER_ARGS[@]}"
++  else
++    "${MAPPER_ARGS[@]}"
++  fi
+ 
+   if [ ! -d "${WORK}/sparse/0" ]; then
+     echo "ERROR: SfM produced no sparse/0. Check registration (try MATCHER=exhaustive or lower SIFT_PEAK_THRESHOLD=0.002)." >&2

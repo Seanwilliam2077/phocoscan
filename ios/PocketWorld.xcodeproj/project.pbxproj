@@ -1,0 +1,1471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6408E0AD66BFDFFF7857B709 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 654FB570C107EE2C5AA8D47A;
+		};
+		C89A1A4E767843C30B2AF7A0 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 5B835172BBCB7D25FC8CF89E;
+		};
+		21971CE4F38566F80E57942E /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = D0A781864090E15CFC76A980;
+		};
+		B24CC76B8EFA5616819A0AE8 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 2598DC86F8836ECDF5B05B2F;
+		};
+		1DC4DFA25BA15EF1FA4C68AC /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 0DF3E6DE632CC4A324EDEB80;
+		};
+		0E72958170137AB2C2C2299E /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 2B311D5C4AE2EEAC1BF75498;
+		};
+		E0C1101FFD46D1F1F6B595E2 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = F253CDE263B467A98A9EFC97;
+		};
+		3FE920D6E5C6275F60BAC3CA /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = F5AFA1FA18B841E9C216F314;
+		};
+		17800335D6CE7EE54C25B01F /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = A58147714A5F50B21CB24B23;
+		};
+		402E46B99CC9E2EC2C2B6ECE /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 84CD51EBBB9C4F8AA26230EB;
+		};
+		27FE50126F748DB6B343DE1D /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 6CE3B6B4F83DF04721388416;
+		};
+		E67074C853EDF2B12DDA39E8 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = B6E6865A0ECF27F6F604D01B;
+		};
+		22DA8DF8A6A93D54C5A5DBC8 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 19F556F121309E6BA737EEF1;
+		};
+		F759A9515EFE71DEA7C1BAA1 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 8C04E7824FA501B78B2FC790;
+		};
+		88BD505693DCA11760C6C90E /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = D6EC61027048B66812AF6CE0;
+		};
+		3BD6FAC5D10EE661BFD3A168 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = A07EC53931ECE8FBB2FCC351;
+		};
+		AABABAC8DA3F4EC1BA18B746 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = BF14D28E54A4F9F09524F095;
+		};
+		F84AE9B344EADD7FFFE48223 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 013674F60AE5DB91837DF216;
+		};
+		E584D859C388675EDC2B69A9 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = D753230B73C4E4182CF33F23;
+		};
+		DE3043A223F34ED155F866A6 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 2CB55FF95F0ACFF925BF22F3;
+		};
+		BAC962CA2AE8DA8672D51EF6 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = EAC79554E174C1A3811E9B38;
+		};
+		24E37501F9D7CC69D7D23D6B /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 06FCACB6933D406CEE81C7CE;
+		};
+		B668F6128B39B21FE1D8AEDB /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = F211ED0F3FC1901280D7BD89;
+		};
+		30FC01D2197A0717CA3300FF /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = C7E9B1332AE109DCA14DAEF8;
+		};
+		079E97C1F2AED0720904D507 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = E53359120D34AF1E093B1C8F;
+		};
+		87CA3BFD8944BB58ED005EBF /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = BE6596822CB24C993D07F5A9;
+		};
+		AEC3883664E2F9FD1F505D5F /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = B8DBC68B66A618CE62EBFB9E;
+		};
+		BF9819B2B2C77EFB0669B736 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = EB0F5D3841F5C7EA9D08DB73;
+		};
+		2D33D0FE9A22D0440AF492A9 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 1E1C738415B93010E406E572;
+		};
+		607E8ACDD72D81072A596A22 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = F8DA21F1B9222F6F48F63923;
+		};
+		FE5593735C6B87382D1966DC /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = C1F2C6F91E6E6126B50C94C5;
+		};
+		1D1B504CB4D30119F64C34DF /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = DF9A7C3837D5B8941CC7CA8A;
+		};
+		1A637B1BD5115ECEAC7B2156 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 393C0F1E54407ED9DE5A6D5F;
+		};
+		605C77608EAC4778AFAD6ADB /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 8D01E70254EAECB70DA92F37;
+		};
+		1D47A26E5A3520B2FABEAF77 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = A3CB0F0A04596B4C80F864ED;
+		};
+		00DB3B078C005C483482D355 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = D0ADE6A59666025318C9866B;
+		};
+		54D1FC91E83DB228C94CD9C0 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 80EE3A29010DA34E9E8211ED;
+		};
+		B3684881F06783E23352DAC4 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 421D1146A8BAAD14FCF3DD3E;
+		};
+		DAB32CBA3FA33F8BF2F5784D /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 7376361798FB7CDC84135C45;
+		};
+		F9F2CBAB65AE17956765FDE1 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 84803DAC5A6A1D38166C10DE;
+		};
+		2D967AC159E2CD8335C7D576 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 86185A4D746B626431AF213E;
+		};
+		918DA1155C8EB360692D4977 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 5AFCA82D74E6B45CC7E83A7C;
+		};
+		F406C72490A7F4B86233E655 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = D5A795068EFF098EF2749E74;
+		};
+		4356085EBB7C8D8264FBCBF5 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 023869ECB1499C25E13C9E51;
+		};
+		04F52CFE4F4B77C58A890C59 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = E04519B161CF46CCF34BC0A1;
+		};
+		74014246A411F9DDF5B36AD8 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 12F2B9A7796A621D3644B6C8;
+		};
+		9DB04A904B81F7C3F636779A /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = E52D681C5F0F290E6B01BB31;
+		};
+		AAE1A844D58D464CF39F0B4B /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 26333D8C938BEFF60AB1C33F;
+		};
+		84973A9A0E7BFB6A2719D3DA /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 64D7240757A9595846418E5F;
+		};
+		DF9C4A8E9A450DB9B2FDA788 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 0EB280DD61A673A909314CFA;
+		};
+		531785388EA275BDAEEF28EE /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 689DD9FF39AFD93EAA53A143;
+		};
+		1A40DA694E3E5D88D9B7FEF8 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 96587B1C147A48F79BF5EA67;
+		};
+		6A0D91AB82FCC8218BF057E7 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 4C3C927F9CEA6E6A5C7CB98F;
+		};
+		BBC8A8C8209F1E6FDB7EB91C /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 836CA24DFCA5D6DF1D47F5FC;
+		};
+		2164E1E89170BB53AD4D96DF /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 7EA28FACC792020BC0BB5497;
+		};
+		B89E97F710D9C8B96CAEE2A5 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 4ACB65A8B079274CC1F8988B;
+		};
+		93EF61D392D3947043E41295 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = B12B92EBEAF9DFE5CCFDBF98;
+		};
+		A6489E491A7470CDDE2C2E47 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 77E62B6BCA5424CB78CC9017;
+		};
+		8EADEEFBEFD211CCE4C2CE42 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 6BCD959DBACD6D43255FB431;
+		};
+		D3253FD875FE6B92D29AA126 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 7BF0AE80020442061600E768;
+		};
+		9DD3CE3C2519FFC055B873FF /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 12D0FCDD5AB77CDC8F019137;
+		};
+		C4FC461FC55C08E65FC9297F /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = D85786A4C7D8A475D4A5BAE2;
+		};
+		FB5793B2777B3D3A6EB9F7D1 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = F223D72C6EC253FC6B0F017B;
+		};
+		E690E07F3990522681C3B871 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 9C87C0DBD3F19C0FF72B8A10;
+		};
+		90B2AF0478FFDCE83CB31408 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 8261271D7A6DA0E8F5E274CA;
+		};
+		DD16576EC1CB18BD7289180D /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 621897BEB6E83D65F7824366;
+		};
+		1F57515B9A364B993C4B78E2 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 0778198C1B3B546127389F77;
+		};
+		7F6C8F5834B160C63AE0253D /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 2D65D9AA9FA3E3CCCF1931C9;
+		};
+		CF4CC92F3837CA1CE693748C /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = F129C96A1F74B3AE4491BBD4;
+		};
+		6D5CBA967158570290544977 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 5997F6FCA7897E3C65BD99F3;
+		};
+		78291834174996FA23592ADA /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 744FDC25DA02160A040C85F2;
+		};
+		5949F758A47C512E36E33294 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 842324EBAC74E61497D37362;
+		};
+		F98F22E28214EA0E63DFA9F6 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 252B49031CDD256527BEA14F;
+		};
+		73840EBD44341F56E4A1D292 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = FA0D4F0609819337709FBD3D;
+		};
+		014C4403B1D02DA707541E73 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 10B5087674D46982CC03270D;
+		};
+		AA39EC5029C01EF5845B0543 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 607FB8063F2892A74D04F694;
+		};
+		CE3DA7B16384E429C37EDE9D /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = E701F30FCB08D5F2086CF6B6;
+		};
+		88B0ADADC91C09EA6D1B71B1 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = F41FBF4B6C06EB9B352A38EA;
+		};
+		267438707802D609031B353E /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = E9BB57A3B27E96C8AADC1436;
+		};
+		7E72311814421EA361A7408E /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = AE8BEBDBC3EA0C9E6CE42C7B;
+		};
+		180BACFF4CFE8EF7B2D0CF16 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 8763B53BD841EF4E4CC1D148;
+		};
+		06BAA4474EC8C982BA209DF8 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = EBCBB02E3E314A0962846F41;
+		};
+		C5E7B821A7AD584CB0F858FB /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 45A00C0A24CB6EA546A3606E;
+		};
+		D22E7E5D587C43427BE9F29A /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = ECDA3C454AE45191569BFB06;
+		};
+		3DF79694BEBFD490BBDB3DE8 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 71E50E261C838D34176A8B5E;
+		};
+		E23E91FB59B3B68E6D5947C6 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 0B22B3A7BBC9E023E84D8ED8;
+		};
+		864764FFC6A5E5E9550B62E9 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			productRef = 58B8263331D76475012748C8;
+		};
+		1EB1D74FB5B21444AB6A97F9 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			productRef = C40CFA7606ECB0B4F95F9F6B;
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF745A4F153648CF6B4160CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0;
+			proxyType = 1;
+			remoteGlobalIDString = C13732C8E715C9BEE4FA51C9;
+			remoteInfo = PocketWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		654FB570C107EE2C5AA8D47A /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = PocketWorld/Assets.xcassets;
+			sourceTree = SOURCE_ROOT;
+		};
+		5B835172BBCB7D25FC8CF89E /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/ARScanRecorder.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		D0A781864090E15CFC76A980 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/CaptureAlignment.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		2598DC86F8836ECDF5B05B2F /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/CaptureCameraOverlay.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		0DF3E6DE632CC4A324EDEB80 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/CapturedVideo.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		2B311D5C4AE2EEAC1BF75498 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/CaptureReview.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		F253CDE263B467A98A9EFC97 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/KeyframePack.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		F5AFA1FA18B841E9C216F314 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/KeyframeSelector.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		A58147714A5F50B21CB24B23 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/NativeCameraController.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		84CD51EBBB9C4F8AA26230EB /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/NativeCaptureView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		6CE3B6B4F83DF04721388416 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/ObjectBox.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		B6E6865A0ECF27F6F604D01B /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/ObjectStepGuidance.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		19F556F121309E6BA737EEF1 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/PhotoSubjectSelection.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		8C04E7824FA501B78B2FC790 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/QualityVolume.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		D6EC61027048B66812AF6CE0 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/ScanSubjectPhoto.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		A07EC53931ECE8FBB2FCC351 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/SpaceGuidance.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF14D28E54A4F9F09524F095 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Capture/TrainingPackage.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		013674F60AE5DB91837DF216 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Game/GameRules.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		D753230B73C4E4182CF33F23 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Game/GameStore.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		2CB55FF95F0ACFF925BF22F3 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Models/ImageGeneration.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		EAC79554E174C1A3811E9B38 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Models/Models.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		06FCACB6933D406CEE81C7CE /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Models/NativeReconstruction.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		F211ED0F3FC1901280D7BD89 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Models/ReconstructionStudy.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		C7E9B1332AE109DCA14DAEF8 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Models/ScanCaptureAssessment.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		E53359120D34AF1E093B1C8F /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/PocketWorldApp.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		BE6596822CB24C993D07F5A9 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = PocketWorld/PrivacyInfo.xcprivacy;
+			sourceTree = SOURCE_ROOT;
+		};
+		B8DBC68B66A618CE62EBFB9E /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = PocketWorld/Resources/Acknowledgments.txt;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB0F5D3841F5C7EA9D08DB73 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.json;
+			path = PocketWorld/Resources/quests.json;
+			sourceTree = SOURCE_ROOT;
+		};
+		1E1C738415B93010E406E572 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Services/APIClient.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		F8DA21F1B9222F6F48F63923 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Services/ImageGenerationStore.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		C1F2C6F91E6E6126B50C94C5 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Services/NativeReconstructionStore.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		DF9A7C3837D5B8941CC7CA8A /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Services/ResumableUpload.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		393C0F1E54407ED9DE5A6D5F /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Training/GaussianTrainer.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		8D01E70254EAECB70DA92F37 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.metal;
+			path = PocketWorld/Training/GaussianTraining.metal;
+			sourceTree = SOURCE_ROOT;
+		};
+		A3CB0F0A04596B4C80F864ED /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Training/OnDeviceTraining.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		D0ADE6A59666025318C9866B /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Training/TrainingCheckpoint.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		80EE3A29010DA34E9E8211ED /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Training/TrainingDataset.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		421D1146A8BAAD14FCF3DD3E /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Training/TrainingSubject.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		7376361798FB7CDC84135C45 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Training/TrainingSubjectSurface.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		84803DAC5A6A1D38166C10DE /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Viewer/GaussianSceneView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		86185A4D746B626431AF213E /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Viewer/LivePhotoExport.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		5AFCA82D74E6B45CC7E83A7C /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Viewer/OrbitLimits.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		D5A795068EFF098EF2749E74 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Viewer/OrbitVideoExport.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		023869ECB1499C25E13C9E51 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Viewer/PocketSplatRenderer.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		E04519B161CF46CCF34BC0A1 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Viewer/RenderBudget.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		12F2B9A7796A621D3644B6C8 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Viewer/SceneCameraPath.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		E52D681C5F0F290E6B01BB31 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Viewer/SplatCrop.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		26333D8C938BEFF60AB1C33F /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Viewer/SPZFilePreflight.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		64D7240757A9595846418E5F /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Views/CommunityView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		0EB280DD61A673A909314CFA /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Views/Components.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		689DD9FF39AFD93EAA53A143 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Views/ExploreView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		96587B1C147A48F79BF5EA67 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Views/HomeLayout.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		4C3C927F9CEA6E6A5C7CB98F /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Views/ImageGenerationView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		836CA24DFCA5D6DF1D47F5FC /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Views/JournalView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		7EA28FACC792020BC0BB5497 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Views/NativeReconstructionView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		4ACB65A8B079274CC1F8988B /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Views/OnDeviceTrainingView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		B12B92EBEAF9DFE5CCFDBF98 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Views/ReconstructionStudyView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		77E62B6BCA5424CB78CC9017 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Views/RootView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		6BCD959DBACD6D43255FB431 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Views/ScanImageGenerationView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		7BF0AE80020442061600E768 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Views/SettingsView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		12D0FCDD5AB77CDC8F019137 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorld/Views/SingleImageCamera.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		D85786A4C7D8A475D4A5BAE2 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/CaptureAlignmentTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		F223D72C6EC253FC6B0F017B /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/CaptureGuidanceTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		9C87C0DBD3F19C0FF72B8A10 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/CaptureLiveCameraTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		8261271D7A6DA0E8F5E274CA /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/CapturePlanTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		621897BEB6E83D65F7824366 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/ExistingScanAcceptanceTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		0778198C1B3B546127389F77 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.json;
+			path = "PocketWorldTests/Fixtures/sample-capture-cameras.json";
+			sourceTree = SOURCE_ROOT;
+		};
+		2D65D9AA9FA3E3CCCF1931C9 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/GameRulesTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		F129C96A1F74B3AE4491BBD4 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/ImageGenerationTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		5997F6FCA7897E3C65BD99F3 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/KeyframePackTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		744FDC25DA02160A040C85F2 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/LibraryDeletionTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		842324EBAC74E61497D37362 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/LivePhotoExportTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		252B49031CDD256527BEA14F /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/LocalTrainingComparisonTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		FA0D4F0609819337709FBD3D /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/NativeReconstructionTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		10B5087674D46982CC03270D /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/NextPositionGuidanceTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		607FB8063F2892A74D04F694 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/OnDeviceTrainingTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		E701F30FCB08D5F2086CF6B6 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/OrbitLimitsTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		F41FBF4B6C06EB9B352A38EA /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/PhotoSubjectSelectionTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		E9BB57A3B27E96C8AADC1436 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/PortraitModeTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		AE8BEBDBC3EA0C9E6CE42C7B /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/ResultAndGuidanceTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		8763B53BD841EF4E4CC1D148 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/ResumableUploadTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		EBCBB02E3E314A0962846F41 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/ScanProjectTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		45A00C0A24CB6EA546A3606E /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/ScanSubjectPhotoTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		ECDA3C454AE45191569BFB06 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/SplatCropTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		71E50E261C838D34176A8B5E /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/SPZViewerTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		0B22B3A7BBC9E023E84D8ED8 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PocketWorldTests/SubjectBoundaryComparisonTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		8BCD5BC4CDFDF0918087C782 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = PocketWorld.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D43E6F042E6A901F12BCDD03 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = PocketWorldTests.xctest;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78AE8C6BEB2A40A6D824CCEE /* PBXFrameworksBuildPhase */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864764FFC6A5E5E9550B62E9,
+				1EB1D74FB5B21444AB6A97F9,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABF84E55BD30AC2CEF8FC42 /* PBXFrameworksBuildPhase */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		328EC33DF3954DC9B83FA285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BCD5BC4CDFDF0918087C782,
+				D43E6F042E6A901F12BCDD03,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BDBD24583AAF7F81F76B976 /* PocketWorld */ = {
+			isa = PBXGroup;
+			children = (
+				654FB570C107EE2C5AA8D47A,
+				5B835172BBCB7D25FC8CF89E,
+				D0A781864090E15CFC76A980,
+				2598DC86F8836ECDF5B05B2F,
+				0DF3E6DE632CC4A324EDEB80,
+				2B311D5C4AE2EEAC1BF75498,
+				F253CDE263B467A98A9EFC97,
+				F5AFA1FA18B841E9C216F314,
+				A58147714A5F50B21CB24B23,
+				84CD51EBBB9C4F8AA26230EB,
+				6CE3B6B4F83DF04721388416,
+				B6E6865A0ECF27F6F604D01B,
+				19F556F121309E6BA737EEF1,
+				8C04E7824FA501B78B2FC790,
+				D6EC61027048B66812AF6CE0,
+				A07EC53931ECE8FBB2FCC351,
+				BF14D28E54A4F9F09524F095,
+				013674F60AE5DB91837DF216,
+				D753230B73C4E4182CF33F23,
+				2CB55FF95F0ACFF925BF22F3,
+				EAC79554E174C1A3811E9B38,
+				06FCACB6933D406CEE81C7CE,
+				F211ED0F3FC1901280D7BD89,
+				C7E9B1332AE109DCA14DAEF8,
+				E53359120D34AF1E093B1C8F,
+				BE6596822CB24C993D07F5A9,
+				B8DBC68B66A618CE62EBFB9E,
+				EB0F5D3841F5C7EA9D08DB73,
+				1E1C738415B93010E406E572,
+				F8DA21F1B9222F6F48F63923,
+				C1F2C6F91E6E6126B50C94C5,
+				DF9A7C3837D5B8941CC7CA8A,
+				393C0F1E54407ED9DE5A6D5F,
+				8D01E70254EAECB70DA92F37,
+				A3CB0F0A04596B4C80F864ED,
+				D0ADE6A59666025318C9866B,
+				80EE3A29010DA34E9E8211ED,
+				421D1146A8BAAD14FCF3DD3E,
+				7376361798FB7CDC84135C45,
+				84803DAC5A6A1D38166C10DE,
+				86185A4D746B626431AF213E,
+				5AFCA82D74E6B45CC7E83A7C,
+				D5A795068EFF098EF2749E74,
+				023869ECB1499C25E13C9E51,
+				E04519B161CF46CCF34BC0A1,
+				12F2B9A7796A621D3644B6C8,
+				E52D681C5F0F290E6B01BB31,
+				26333D8C938BEFF60AB1C33F,
+				64D7240757A9595846418E5F,
+				0EB280DD61A673A909314CFA,
+				689DD9FF39AFD93EAA53A143,
+				96587B1C147A48F79BF5EA67,
+				4C3C927F9CEA6E6A5C7CB98F,
+				836CA24DFCA5D6DF1D47F5FC,
+				7EA28FACC792020BC0BB5497,
+				4ACB65A8B079274CC1F8988B,
+				B12B92EBEAF9DFE5CCFDBF98,
+				77E62B6BCA5424CB78CC9017,
+				6BCD959DBACD6D43255FB431,
+				7BF0AE80020442061600E768,
+				12D0FCDD5AB77CDC8F019137,
+			);
+			name = PocketWorld;
+			sourceTree = "<group>";
+		};
+		68DE481A39400A49757EB7B7 /* PocketWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				D85786A4C7D8A475D4A5BAE2,
+				F223D72C6EC253FC6B0F017B,
+				9C87C0DBD3F19C0FF72B8A10,
+				8261271D7A6DA0E8F5E274CA,
+				621897BEB6E83D65F7824366,
+				0778198C1B3B546127389F77,
+				2D65D9AA9FA3E3CCCF1931C9,
+				F129C96A1F74B3AE4491BBD4,
+				5997F6FCA7897E3C65BD99F3,
+				744FDC25DA02160A040C85F2,
+				842324EBAC74E61497D37362,
+				252B49031CDD256527BEA14F,
+				FA0D4F0609819337709FBD3D,
+				10B5087674D46982CC03270D,
+				607FB8063F2892A74D04F694,
+				E701F30FCB08D5F2086CF6B6,
+				F41FBF4B6C06EB9B352A38EA,
+				E9BB57A3B27E96C8AADC1436,
+				AE8BEBDBC3EA0C9E6CE42C7B,
+				8763B53BD841EF4E4CC1D148,
+				EBCBB02E3E314A0962846F41,
+				45A00C0A24CB6EA546A3606E,
+				ECDA3C454AE45191569BFB06,
+				71E50E261C838D34176A8B5E,
+				0B22B3A7BBC9E023E84D8ED8,
+			);
+			name = PocketWorldTests;
+			sourceTree = "<group>";
+		};
+		E50290A24C49A459B43487C5 /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				1BDBD24583AAF7F81F76B976,
+				68DE481A39400A49757EB7B7,
+				328EC33DF3954DC9B83FA285,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C13732C8E715C9BEE4FA51C9 /* PocketWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BFED80BF82A52D2319EC7C9;
+			buildPhases = (
+				971ED9D05B25DB6C4D7680D4,
+				78AE8C6BEB2A40A6D824CCEE,
+				364863F9F2E558B0F50473FC,
+			);
+			buildRules = (
+
+			);
+			dependencies = (
+
+			);
+			name = PocketWorld;
+			packageProductDependencies = (
+				58B8263331D76475012748C8,
+				C40CFA7606ECB0B4F95F9F6B,
+			);
+			productName = PocketWorld;
+			productReference = 8BCD5BC4CDFDF0918087C782;
+			productType = "com.apple.product-type.application";
+		};
+		EB441FB4F42650CB3146523A /* PocketWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6CB90701CD5C2F784FE01A;
+			buildPhases = (
+				6E431EB0650617AA1756B320,
+				1ABF84E55BD30AC2CEF8FC42,
+				7DED7670B79BEA8B7480B1FC,
+			);
+			buildRules = (
+
+			);
+			dependencies = (
+				C3398DC1696DEBF2AC02C874,
+			);
+			name = PocketWorldTests;
+			productName = PocketWorldTests;
+			productReference = D43E6F042E6A901F12BCDD03;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* PBXProject */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = "1630";
+				TargetAttributes = {
+					C13732C8E715C9BEE4FA51C9 = {
+						CreatedOnToolsVersion = "16.3";
+					};
+					EB441FB4F42650CB3146523A = {
+						CreatedOnToolsVersion = "16.3";
+						TestTargetID = C13732C8E715C9BEE4FA51C9;
+					};
+				};
+			};
+			buildConfigurationList = CDFB4707627E38AFF8D15D5B;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = E50290A24C49A459B43487C5;
+			packageReferences = (
+				7B6378DC67B2F7C761577AA7,
+			);
+			productRefGroup = 328EC33DF3954DC9B83FA285;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C13732C8E715C9BEE4FA51C9,
+				EB441FB4F42650CB3146523A,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		364863F9F2E558B0F50473FC /* PBXResourcesBuildPhase */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6408E0AD66BFDFFF7857B709,
+				87CA3BFD8944BB58ED005EBF,
+				AEC3883664E2F9FD1F505D5F,
+				BF9819B2B2C77EFB0669B736,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DED7670B79BEA8B7480B1FC /* PBXResourcesBuildPhase */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F57515B9A364B993C4B78E2,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		971ED9D05B25DB6C4D7680D4 /* PBXSourcesBuildPhase */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89A1A4E767843C30B2AF7A0,
+				21971CE4F38566F80E57942E,
+				B24CC76B8EFA5616819A0AE8,
+				1DC4DFA25BA15EF1FA4C68AC,
+				0E72958170137AB2C2C2299E,
+				E0C1101FFD46D1F1F6B595E2,
+				3FE920D6E5C6275F60BAC3CA,
+				17800335D6CE7EE54C25B01F,
+				402E46B99CC9E2EC2C2B6ECE,
+				27FE50126F748DB6B343DE1D,
+				E67074C853EDF2B12DDA39E8,
+				22DA8DF8A6A93D54C5A5DBC8,
+				F759A9515EFE71DEA7C1BAA1,
+				88BD505693DCA11760C6C90E,
+				3BD6FAC5D10EE661BFD3A168,
+				AABABAC8DA3F4EC1BA18B746,
+				F84AE9B344EADD7FFFE48223,
+				E584D859C388675EDC2B69A9,
+				DE3043A223F34ED155F866A6,
+				BAC962CA2AE8DA8672D51EF6,
+				24E37501F9D7CC69D7D23D6B,
+				B668F6128B39B21FE1D8AEDB,
+				30FC01D2197A0717CA3300FF,
+				079E97C1F2AED0720904D507,
+				2D33D0FE9A22D0440AF492A9,
+				607E8ACDD72D81072A596A22,
+				FE5593735C6B87382D1966DC,
+				1D1B504CB4D30119F64C34DF,
+				1A637B1BD5115ECEAC7B2156,
+				605C77608EAC4778AFAD6ADB,
+				1D47A26E5A3520B2FABEAF77,
+				00DB3B078C005C483482D355,
+				54D1FC91E83DB228C94CD9C0,
+				B3684881F06783E23352DAC4,
+				DAB32CBA3FA33F8BF2F5784D,
+				F9F2CBAB65AE17956765FDE1,
+				2D967AC159E2CD8335C7D576,
+				918DA1155C8EB360692D4977,
+				F406C72490A7F4B86233E655,
+				4356085EBB7C8D8264FBCBF5,
+				04F52CFE4F4B77C58A890C59,
+				74014246A411F9DDF5B36AD8,
+				9DB04A904B81F7C3F636779A,
+				AAE1A844D58D464CF39F0B4B,
+				84973A9A0E7BFB6A2719D3DA,
+				DF9C4A8E9A450DB9B2FDA788,
+				531785388EA275BDAEEF28EE,
+				1A40DA694E3E5D88D9B7FEF8,
+				6A0D91AB82FCC8218BF057E7,
+				BBC8A8C8209F1E6FDB7EB91C,
+				2164E1E89170BB53AD4D96DF,
+				B89E97F710D9C8B96CAEE2A5,
+				93EF61D392D3947043E41295,
+				A6489E491A7470CDDE2C2E47,
+				8EADEEFBEFD211CCE4C2CE42,
+				D3253FD875FE6B92D29AA126,
+				9DD3CE3C2519FFC055B873FF,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E431EB0650617AA1756B320 /* PBXSourcesBuildPhase */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FC461FC55C08E65FC9297F,
+				FB5793B2777B3D3A6EB9F7D1,
+				E690E07F3990522681C3B871,
+				90B2AF0478FFDCE83CB31408,
+				DD16576EC1CB18BD7289180D,
+				7F6C8F5834B160C63AE0253D,
+				CF4CC92F3837CA1CE693748C,
+				6D5CBA967158570290544977,
+				78291834174996FA23592ADA,
+				5949F758A47C512E36E33294,
+				F98F22E28214EA0E63DFA9F6,
+				73840EBD44341F56E4A1D292,
+				014C4403B1D02DA707541E73,
+				AA39EC5029C01EF5845B0543,
+				CE3DA7B16384E429C37EDE9D,
+				88B0ADADC91C09EA6D1B71B1,
+				267438707802D609031B353E,
+				7E72311814421EA361A7408E,
+				180BACFF4CFE8EF7B2D0CF16,
+				06BAA4474EC8C982BA209DF8,
+				C5E7B821A7AD584CB0F858FB,
+				D22E7E5D587C43427BE9F29A,
+				3DF79694BEBFD490BBDB3DE8,
+				E23E91FB59B3B68E6D5947C6,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3398DC1696DEBF2AC02C874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C13732C8E715C9BEE4FA51C9;
+			targetProxy = EF745A4F153648CF6B4160CC;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB52CB08E0FDF02BF6C67C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = "18.0";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = "5.0";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				GCC_OPTIMIZATION_LEVEL = "0";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+		};
+		5283471FF90C511CFE244FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = "18.0";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = "5.0";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+		};
+		EF00B4C26D3BA245CBAB3F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y6H3K5AZ9A;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "1";
+				GENERATE_INFOPLIST_FILE = NO;
+				MARKETING_VERSION = "0.1.0";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketworld.mvp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ENABLE_PREVIEWS = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				GCC_OPTIMIZATION_LEVEL = "0";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				INFOPLIST_FILE = "Config/Info-Debug.plist";
+			};
+		};
+		49B4940C5F901788C278DD41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y6H3K5AZ9A;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "1";
+				GENERATE_INFOPLIST_FILE = NO;
+				MARKETING_VERSION = "0.1.0";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketworld.mvp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ENABLE_PREVIEWS = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+			};
+		};
+		532167A2F4DF305CC7A47840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y6H3K5AZ9A;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketworld.mvp.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketWorld.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketWorld";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				GCC_OPTIMIZATION_LEVEL = "0";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+		};
+		613A5B8C1DD03DF932B456E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y6H3K5AZ9A;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketworld.mvp.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketWorld.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketWorld";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDFB4707627E38AFF8D15D5B /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB52CB08E0FDF02BF6C67C33,
+				5283471FF90C511CFE244FFF,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BFED80BF82A52D2319EC7C9 /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF00B4C26D3BA245CBAB3F00,
+				49B4940C5F901788C278DD41,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6CB90701CD5C2F784FE01A /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532167A2F4DF305CC7A47840,
+				613A5B8C1DD03DF932B456E4,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B6378DC67B2F7C761577AA7 /* XCRemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scier/MetalSplatter";
+			requirement = {
+				kind = revision;
+				revision = "71ff248e3016ac43c0a9271e322538421b28c360";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		58B8263331D76475012748C8 /* MetalSplatter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B6378DC67B2F7C761577AA7;
+			productName = MetalSplatter;
+		};
+		C40CFA7606ECB0B4F95F9F6B /* SplatIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B6378DC67B2F7C761577AA7;
+			productName = SplatIO;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0;
+}

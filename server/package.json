@@ -1,0 +1,17 @@
+{
+  "name": "pocketworld-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "node --test --test-concurrency=1 test/*.test.mjs",
+    "admin": "node admin.mjs"
+  },
+  "dependencies": {
+    "busboy": "1.6.0"
+  }
+}

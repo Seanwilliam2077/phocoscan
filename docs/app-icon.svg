@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">拾境</title>
+  <desc id="desc">鼠尾草绿底色，米白色取景框环抱一株嫩芽。</desc>
+  <path fill="#547460" d="M0 0h1024v1024H0z"/>
+  <g fill="none" stroke="#F8F7EF" stroke-width="38" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M392 244H244v148M632 244h148v148M780 632v148H632M392 780H244V632"/>
+    <path d="M512 660V496"/>
+  </g>
+  <g fill="#F8F7EF">
+    <path d="M514 556C427 556 369 501 373 420C454 417 514 470 514 556Z"/>
+    <path d="M510 491C507 408 564 351 646 354C648 435 590 492 510 491Z"/>
+  </g>
+</svg>
